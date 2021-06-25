@@ -1,20 +1,7 @@
-###Português
-Este script é usado para notificar o estado atual de uma determinada encomenda.
-
-O script entra no site dos correios, na sessão de rastreamento, e insere o código no local apropriado, 
-e então, clica no botão para prosseguir.
-Na próxima pagina, o script pega duas informações, o estado da encomenda e a data da atualização, 
-e faz o sistema notificar o usuário.
-
-O script foi feito e testado em Linux Mint 20 utilizando Python3, Selenium e Notify-send. 
-Utilizando o CronJobs pode se agendar a execução do script, automatizando completamente o processo. 
-
-###English
-This script is used to notify the status of a determined package.
-The script go to a website(correios), specifically the tracking section, insert the tracking code, 
-and click on the submit button.
-In the next page, the script select two information, the update date and the package status, 
-notifying the user.
-
-The script was written and tested on Linux Mint 20 using Python3, Selenium e Notify-send. 
-It's possible to utilize CronJobs to schedule the execution of the script, automating completely the process.
+# About
+This script is used to notify the status of a determined package.  
+The script goes to a website(correios), specifically, the tracking section, insert the tracking code,and click on the submit button.  
+On the next page, the script select two pieces of information, the update date, and the package status, notifying the user.  
+  
+The script was written and tested on Linux Mint 20 using Python3, Selenium e Notify-send.  
+It's possible to utilize CronJobs to schedule the execution of the script.  
